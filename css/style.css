@@ -1,0 +1,115 @@
+/* global css */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  margin: 0 auto;
+  width: 90%;
+}
+body{
+  font-family: 'Work Sans', sans-serif;
+}
+.global-heading{
+  color: white;
+  font-weight: 600;
+}
+.global-p{
+  color: #303030;
+}
+.global-button{
+  background: transparent;
+  color: white;
+  padding: 10px;
+  width: 150px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+/*header part*/
+#header{
+  width: 100%;
+  float: left;
+  background:url(bg.png) no-repeat ;
+  background-size: cover;
+  background-position: center;
+  padding: 10px 0px;
+}
+.main-header{
+  width: 100%;
+  float: left;
+}
+.logo-part{
+  width: 40%;
+  float: left;
+}
+.menu-part{
+  width: 60%;
+  float: left;
+  text-align: end;
+}
+.menu-part nav ul li{
+  display: inline-block;
+  margin: 0px 10px;
+}
+.menu-part nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.hero{
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding-top: 200px;
+}
+.hero h1{
+  font-size: 49px;
+}
+.hero p{
+color: white;
+margin: 25px auto;
+}
+.hero img{
+
+}
+.hero-button{
+  margin-bottom: 30px; 
+}
+.hero-button a button{
+  margin: 0px 10px;
+  background: transparent; 
+}
+/*features section*/
+#features{
+  width: 100%;
+  float: left;
+  background: url(fbg.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10px 0px;
+}
+.f-i-p{
+
+}
+.f-i-p img{
+
+}
+.f-b-p{
+
+}
+.f-b{
+
+}
+.feature-box{
+
+}
+.feature-box h2{
+
+}
+.feature-box p{
+
+}
+.feature-box img{
+
+}
